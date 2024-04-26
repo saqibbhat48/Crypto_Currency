@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.custom-color{
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-pink-600 inline-block
+}
+
+body{
+    --tw-bg-opacity: 1;
+    background-color: rgb(167 139 250 / var(--tw-bg-opacity));
+}
