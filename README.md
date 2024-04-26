@@ -1,8 +1,13 @@
-# React + Vite
+# Crypto-Currency Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CryptoHub is a web application built with React and Tailwind CSS that provides users with information about the top 50 cryptocurrencies, crypto news, and upcoming exchanges. Users can navigate between different sections using React Router integrated into the navbar.
 
-Currently, two official plugins are available:
+# Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Top 50 Cryptocurrencies: View the latest information about the top 50 cryptocurrencies, including their names, prices, market caps, and changes.
+Crypto News: Stay updated with the latest crypto news from various sources.
+Upcoming Exchanges: Explore upcoming cryptocurrency exchanges that will be added soon.
+
+# Contact
+
+If you have any questions or feedback, feel free to reach out to bhatsaqib48@gmail.com.
