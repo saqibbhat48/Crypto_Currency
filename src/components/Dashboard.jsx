@@ -38,13 +38,13 @@ const Dashboard = () => {
     return (
         <>
             {load ? (
-                <div className='min-h-[79vh]'>
+                <div className='min-h-[79dvh]'>
                     <h1 className='flex gap-2 justify-center font-bold text-2xl p-8'>Loading <div className="animate-spin rounded-full h-10 w-10 border-b-2 border-black"></div></h1>
                 </div>
             ) : (
                 <>
                     <h1 className='bg-violet-400 text-2xl sm:text-3xl lg:text-4xl text-center pt-10 font-bold '>Top 50 CryptoCurrencies in the world</h1>
-                    <div className='flex flex-wrap gap-5 justify-center p-10 bg-violet-400'>
+                    <div className='flex flex-wrap min-h-[79dvh] gap-5 justify-center p-10 bg-violet-400'>
                         {data.slice(0, loadedCryptos).map((d) => {
                             return (
                                 <div key={d.uuid} className='w-72 bg-white p-4 flex gap-10 hover:scale-105 duration-300 ease-linear'>

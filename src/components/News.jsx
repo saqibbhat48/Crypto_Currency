@@ -39,10 +39,10 @@ const News = () => {
   return (
     <>
     <Navbar/>
-    {load ? <div className="min-h-[79vh]"><h1 className='flex gap-2 justify-center font-bold text-2xl p-8'>Loading <div className="animate-spin rounded-full h-10 w-10 border-b-2 border-black"></div></h1></div> :
+    {load ? <div className="min-h-[79dvh]"><h1 className='flex gap-2 justify-center font-bold text-2xl p-8'>Loading <div className="animate-spin rounded-full h-10 w-10 border-b-2 border-black"></div></h1></div> :
      <div className="p-8">
      {news.map((news) => (
-       <div key={uuidv4()} className="bg-white p-4 mb-10">
+       <div key={uuidv4()} className="bg-white min-h-[79dvh] p-4 mb-10">
          <div className="gap-4 md:flex md:justify-between">
            <h1 className="text-xl font-bold md:text-2xl lg:text-4xl mb-4">
              {news.title}
